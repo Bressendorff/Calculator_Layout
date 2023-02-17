@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Calculator Layout</string>
+    <dimen name="width">85dp</dimen>
+    <dimen name="height">120dp</dimen>
+    <dimen name="padding">1dp</dimen>
+    <dimen name="margin">2dp</dimen>
+    <dimen name="width_landscape">190dp</dimen>
+    <dimen name="height_landscape">45dp</dimen>
+    <dimen name="padding_landscape">1dp</dimen>
+    <dimen name="margin_landscape">2dp</dimen>
+    <color name="operator_color">#eeeee4</color>
+    <color name="number_color">#2596be</color>
+</resources>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_field"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="2dp"
+        android:autoSizeMaxTextSize="40dp"
+        android:autoSizeStepGranularity="1dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textDirection="rtl"
+        android:background="@android:drawable/editbox_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:text="7"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:text="8"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:text="9"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:text="+"
+            android:backgroundTint="@color/operator_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="4"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="5"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="6"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="-"
+            android:backgroundTint="@color/operator_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="1"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="2"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:paddingHorizontal="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:text="3"
+            android:backgroundTint="@color/number_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="x"
+            android:backgroundTint="@color/operator_color"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="0"
+            android:backgroundTint="@color/number_color"/>
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="."
+            android:backgroundTint="@color/operator_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="="
+            android:backgroundTint="@color/operator_color"/>
+
+        <Button
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+
+            android:text="%"
+            android:backgroundTint="@color/operator_color"/>
+    </LinearLayout>
+
+
+</LinearLayout>
